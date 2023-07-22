@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UntrefSchool</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./Css/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <meta name="description" content="">
+</head>
+<body>
+    <header id="header" class="col">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbarmystyle">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="./img/logo_footer-1.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+              </button>
+              <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link " href="#main__quienesSomos">Quienes Somos</a>
+                  <a class="nav-link" href="#main__porQueElegirnos">¿Por que elegrinos?</a>
+                  <a class="nav-link" href="#main__propuestaEducativa">Propuesta Educativa</a>
+                  <a class="nav-link " href="#main__ultimasNoticias">Últimas noticias</a>
+                  <a class="nav-link " href="#m">Contactanos</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="container-fluid mt-1 d-flex flex-column align-items-center mainform" id="contacto">  
+      <h2 class="text-start">CONTACTO</h2>
+          <form action="https://getform.io/f/0c48ab34-1d0a-4b59-be42-fa3b1193a0cb" method="POST">
+              <div class="form-outline mb-4">
+                  <label class="form-label" for="nombre">Nombre</label>
+                  <input type="text" id="nombre" class="form-control" name="name">
+              </div>
+
+              <div class="form-outline mb-4">
+                  <label class="form-label" for="email">Email</label>
+                  <input type="email" id="email" class="form-control" name="email">
+              </div>
+      
+              <div class="form-outline mb-4">
+                  <label class="form-label" for="mensaje">Mensaje</label>
+                  <textarea class="form-control" id="mensaje" rows="4" name="message"></textarea>
+                  <!-- add hidden Honeypot input to prevent spams -->
+                  <input type="hidden" name="_gotcha" style="display:none !important">
+              </div>
+      
+              <!-- <div class="form-check d-flex justify-content-center mb-4">
+                  <input class="form-check-input me-2 check" type="checkbox" value="" id="copiamensaje" checked />
+                  <label class="form-check-label" for="copiamensaje">
+                      Enviarme una copia de este correo
+                  </label>
+              </div> -->
+              
+              <div class="d-grid">
+                  <button type="submit" class="btn btn-primary btn-lg mb-4 boton">
+                      Enviar
+                  </button>
+              </div>
+          </form>
+</main>
+<footer id="footer">
+    <div class="footer__div">
+      <section class="footer__primerSection">
+        <h5>Nuestras Redes</h5>
+        <ul class="footer__ul-left">
+          <li>
+            <a href="">
+              <i class="bi bi-instagram footer_redes"></i>
+              <h6 class="footer_redes" >Instagram</h6>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="bi bi-twitter footer_redes"></i>
+              <h6 class="footer_redes">Twitter</h6>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="bi bi-facebook footer_redes"></i>
+              <h6 class="footer_redes">Facebook</h6>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="footer__iframe" >
+        <h5>Donde encontrarnos</h5>
+        <iframe class="iframeMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26272.27839102723!2d-58.581423278753654!3d-34.603281544807786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacb9f8ff113%3A0x22fd08da6711928d!2sUniversidad%20Nacional%20de%20Tres%20de%20Febrero%20-%20Sede%20Caseros%20I!5e0!3m2!1ses!2sar!4v1689881987320!5m2!1ses!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+      <section class="footer__segundaSection" >
+        <h5>Contacto</h5>
+      <div>
+        <h6>Secretaría Académica</h6>
+        <p>secretariaacademica@untref.edu.ar 4575-5012/14/15</p>
+      </div>
+      <div>
+        <h6>Carreras de grado</h6>
+        <p>alumnos@untref.edu.ar 4759-3528/3537/3578/0040</p>
+      </div>
+      <div>
+        <h6>Secretaría Académica</h6>
+        <p>secretariaacademica@untref.edu.ar 4575-5012/14/15</p>
+      </div>
+      
+      </section>
+      
+    </div>
+    
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
