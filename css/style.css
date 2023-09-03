@@ -110,7 +110,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  padding-top: 20px;
   background-color: var(--azul);
   padding: 10px;
   width: 100%;
@@ -145,11 +145,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
   background-color: var(--claro);
-  margin-top: 2rem;
   padding: 10px;
   width: 100%;
+  height: auto;
 }
 
 #main__porQueElegirnos > h3 {
@@ -157,6 +156,7 @@ body {
   font-family: "Belanosima", sans-serif;
   font-size: 2rem;
   font-weight: 600;
+  margin-bottom: 0;
 }
 
 .main__divs {
@@ -169,6 +169,7 @@ body {
   color: var(--azul);
   padding: 10px;
   font-family: "poppins", sans-serif;
+  margin-bottom: 0;
 }
 
 #main__porQueElegirnos img {
@@ -178,7 +179,6 @@ body {
 
 #main__propuestaEducativa {
   background-color: var(--azul);
-  margin-top: 2rem;
   padding: 10px;
   gap: 1rem;
   width: 100%;
@@ -201,9 +201,9 @@ body {
 }
 
 .main__propuestaDiv > div:hover {
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 4px 2px 5px var(--oscuro);
+  transform: scale(1.2);
+  border-radius: 20px;
+  transition: all .8s;
 }
 
 #main__propuestaEducativa > p {
@@ -275,6 +275,7 @@ body {
 .mainform {
   grid-column: 1 / 4;
 }
+
 
 /* FOOTER STYLE */
 
@@ -349,8 +350,11 @@ body {
 }
 
 .iframeMap {
-  height: auto;
+  height: 200px;
   max-width: 350px;
+  border: 1px solid var(--oscuro);
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px var(--oscuro);
 }
 
 .footer__segundaSection {
@@ -377,14 +381,14 @@ body {
 }
 
 .footer__segundaSection > div > p {
-  font-size: 0.5rem;
+  font-size: 1rem;
   color: var(--claro);
   margin: 0 auto;
   text-align: start;
 }
 
 .footer__segundaSection > div > h6 {
-  font-size: .8rem;
+  font-size: 1.2rem;
   color: var(--claro);
   margin: 0;
   text-align: start;
@@ -402,11 +406,7 @@ body {
   }
 }
 
-@media (min-width: 576px) {
-  .iframeMap {
-    height: 20vh;
-  }
-}
+
 
 @media (min-width: 768px) {
   #main__ultimasNoticias {
@@ -475,7 +475,7 @@ body {
 @media (min-width: 1200px) {
 
   #footer{
-    height: auto;
+    height: 300px;
   }
 
   .footer__div {
@@ -521,7 +521,8 @@ body {
   #main__ultimasNoticias {
     align-items: start;
     width: 40%;
-    padding: 2rem;
+    
+    
   }
 
   .main__p--quienesSomos {
