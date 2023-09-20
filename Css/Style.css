@@ -259,6 +259,14 @@ body {
   margin: 0;
 }
 
+.carousel-control-prev {
+  left: -100px
+}
+
+.carousel-control-next {
+  right: -100px;
+}
+
 .carousel-item > h6 {
   color: var(--azul);
   text-decoration: underline;
@@ -384,7 +392,7 @@ body {
 }
 
 .footer__segundaSection > div > h6 {
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: var(--claro);
   margin: 0;
   text-align: start;
@@ -473,8 +481,7 @@ body {
 }
 
 @media (min-width: 1200px) {
-
-  #footer{
+  #footer {
     height: auto;
   }
 
